@@ -1,0 +1,33 @@
+{
+  "name": "lotrapp",
+  "version": "1.0.0",
+  "description": "This application queries the Lord of the Rings API (https://the-one-api.dev/about) and functions as a chatbot to answer user questions about Lord of the Rings.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinFurrow/TolkienboutAI.git"
+  },
+  "keywords": [
+    "AI",
+    "API",
+    "LOTR"
+  ],
+  "author": "Justin Furrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinFurrow/TolkienboutAI/issues"
+  },
+  "homepage": "https://github.com/JustinFurrow/TolkienboutAI#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "axios-rate-limit": "^1.3.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.24.7",
+    "socket.io": "^4.7.4"
+  }
+}
